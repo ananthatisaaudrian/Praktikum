@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(147, 175, 204);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container {
+    box-shadow: 5px 10px #888888 v;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-menu {
+    font-size: 14pt;
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    right: 5px;
+}
+
+.brand {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.menu {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 12pt;
+    padding-bottom: 5px;
+}
+
+.menu:hover {
+    border-bottom: 3px solid white;
+}
+
+#menu-join {
+    border: 2px solid white;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+
+#menu-join:hover {
+    background: white;
+    color: black;
+}
+
+.jumbotron {
+    background-image: url(jumbotron-bg.jpg);
+    background-size: cover;
+    margin-top: -90px;
+    height: 50px;
+    color: white;
+    padding-top: 100px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.keahlian {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    
+}
+
+.Document {
+    width: 90%;
+    margin: 10px 30px;
+    background-color: rgba(51, 48, 247, 0.473);
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.cards {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    border: 2px solid #155799;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.card-body {
+    display: block;
+}
+
+.img-skil {
+    width: 450px;
+    height: 300px;
+}
+
+.h3-skil {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-top: 35%;
+}
+
+
+
+.Footer{
+    color: lightyellow;
+
+    width: 90%;
+    margin: 0px 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* background-image: url(Gambar/Exploded.jpg); */
+    text-align: center;
+    padding: 7px 90px;
+    font-size: 20px;
+}
+
+.btn-download {
+    margin-left: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: rgb(34, 91, 99);
+    color: white;
+    border-radius: 10px;
+}
